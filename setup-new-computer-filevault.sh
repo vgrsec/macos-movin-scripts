@@ -53,6 +53,6 @@ pwpolicy -u $LIMITEDUSER -setpolicy "newPasswordRequired=1"
 sysadminctl -guestAccount Off
 sysadminctl -secureTokenOn filevault -password - -adminUser $(logname) -adminPassword -
 fdesetup enable -user filevault
-fdesetup remove -user alice
+fdesetup remove -user $CURRENTUSER
 defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool false
 chsh -s /usr/bin/false filevault
