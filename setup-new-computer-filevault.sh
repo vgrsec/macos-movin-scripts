@@ -2,12 +2,14 @@
 #
 ### VGR - Move into a New Laptop
 #
-### Computer Setup Scripts 
+### Computer Scripts 
 ### Changelog ###
 #
 # 20191228 Initial Breakout
 
 ##### Users and FileVault Setup ######
+
+echo "Setup FileVault and Users"
 
 # The goal of the following code is to perform the following
 #

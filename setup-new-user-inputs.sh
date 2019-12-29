@@ -9,6 +9,7 @@
 
 ##### Inputs ######
 
+echo "Setup Inputs"
 
 #### Keyboard & Mouse ####################################
 

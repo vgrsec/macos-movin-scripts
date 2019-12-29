@@ -9,6 +9,8 @@
 
 ##### RandomMAC ######
 
+echo "Setup RandomMAC"
+
 # Setup Directories
 mkdir /usr/local
 mkdir /usr/local/bin

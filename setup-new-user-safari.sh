@@ -9,6 +9,8 @@
 
 ### Safari
 
+echo "Setup Safari"
+
 # Disable DNS Prefetching
 defaults write com.apple.safari WebKitPreferences.dnsPrefetchingEnabled -boolean false
 

@@ -2,12 +2,14 @@
 #
 ### VGR - Move into a New Laptop
 #
-### Finder Scripts 
+### Computer Scripts 
 ### Changelog ###
 #
 # 20191228 Initial Breakout
 
 ##### System Privacy ######
+
+echo "Setup Privacy"
 
 # Limit AdTracking
 defaults write com.apple.AdLib forceLimitAdTracking -boolean true

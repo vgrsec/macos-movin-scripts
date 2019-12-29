@@ -9,6 +9,8 @@
 
 ##### UI ######
 
+echo "Setup UI"
+
 # Show bluetooth icon and sound
 defaults write com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.bluetooth" -bool true
 defaults write ~/Library/Preferences/com.apple.systemuiserver "NSStatusItem Visible com.apple.menuextra.volume" -bool true

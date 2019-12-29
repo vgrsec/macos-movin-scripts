@@ -2,12 +2,14 @@
 #
 ### VGR - Move into a New Laptop
 #
-### Computer Setup Scripts 
+### Computer Scripts 
 ### Changelog ###
 #
 # 20191228 Initial Breakout
 
 ##### Random HostName ######
+
+echo "Setup RandomHostName"
 
 # Setup Directories
 mkdir /usr/local

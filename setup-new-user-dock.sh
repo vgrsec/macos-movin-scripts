@@ -9,6 +9,8 @@
 
 ##### Dock ######
 
+echo "Setup Dock"
+
 # Do not show recent applications in dock
 defaults write com.apple.dock show-recent -bool false
 

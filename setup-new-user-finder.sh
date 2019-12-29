@@ -10,6 +10,8 @@
 
 ##### Finder ######
 
+echo "Setup Finder"
+
 # Show Hidden Files in Finder
 defaults write com.apple.Finder AppleShowAllFiles true
 
