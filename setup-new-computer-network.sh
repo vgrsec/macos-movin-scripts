@@ -16,3 +16,4 @@ defaults write /Library/Preferences/com.apple.alf globalstate -int 2
 
 # Disable ipv6
 networksetup -setv6off Wi-Fi
+networksetup -setv6off Ethernet
