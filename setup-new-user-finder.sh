@@ -27,6 +27,9 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 # Show path bar
 defaults write com.apple.finder ShowPathbar -bool true
 
+# Show tab bar
+defaults write com.apple.finder NSWindowTabbingShoudShowTabBarKey-com.apple.finder.TBrowserWindow  -bool true
+
 # Keep folders on top when sorting by name
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
 
