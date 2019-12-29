@@ -1,23 +1,9 @@
-#!/bin/bash
-#
-### VGR - Move into a New Laptop
-#
-### Finder Scripts 
-### Changelog ###
-#
-# 20191228 Initial Breakout
+setup-new-laptop-spotlight.sh
 
-##### System Privacy ######
+# Disable Spotlight
+mdutil -a -i off
+rm -rf /.Spotlight-V100/*
 
-# Limit AdTracking
-defaults write com.apple.AdLib forceLimitAdTracking -boolean true
-
-#Disable Spotlight Indexing
-
-# sudo mdutil -a -i off performed during coputer setup
-echo " "
-echo "Disable spotlight indexing and add /Volumes to exclusion in settings"
-echo "Spotlight is now protected by SIP https://www.jamf.com/jamf-nation/discussions/29884/10-14-cannot-modify-spotlight-v100-volumeconfiguration-plist"
 
 # Disable SpotLight Suggestion Search
 defaults write com.apple.lookup.shared LookupSuggestionsDisabled -bool true
@@ -46,12 +32,3 @@ defaults write com.apple.Spotlight orderedItems -array \
 '{"enabled" = 0;"name" = "MENU_EXPRESSION";}' \
 '{"enabled" = 0;"name" = "MENU_WEBSEARCH";}' \
 '{"enabled" = 0;"name" = "MENU_SPOTLIGHT_SUGGESTIONS";}'
-
-# Prevent Time Machine from prompting to use new hard drives as backup volume
-defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
-
-# Disable the crash reporter
-defaults write com.apple.CrashReporter DialogType -string "none"
-
-# Check for software updates daily, not just once per week
-defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
