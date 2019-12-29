@@ -46,5 +46,8 @@ defaults write com.apple.screensaver askForPasswordDelay -int 0
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
+# Disable Natural Scroll
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+
 # Reset UI
 killall SystemUIServer
