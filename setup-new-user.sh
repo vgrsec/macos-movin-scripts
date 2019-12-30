@@ -31,4 +31,4 @@ UI="./setup-new-user-ui.sh"
 PRIVACY="./setup-new-user-privacy.sh"
 . "$PRIVACY"
 
-shutdown -r now
+echo "Reset Computer"
