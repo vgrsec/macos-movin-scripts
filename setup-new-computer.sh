@@ -42,5 +42,4 @@ RANDOMMAC="./setup-new-computer-randommac.sh"
 SPOTLIGHT="./setup-new-computer-spotlight.sh"
 . "$SPOTLIGHT"
 
-USER="./setup-new-user.sh"
-. "$USER"
+echo "Run user script without sudo"
